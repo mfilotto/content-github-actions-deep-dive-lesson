@@ -16,7 +16,7 @@ jobs:
                 python-version: '3.9'
             - name: Install linting librarie
               run: |
-                    cd funtion
+                    cd function
                     pip install flake8
             - name: Lint with flake8
               run: |
